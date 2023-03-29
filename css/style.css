@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&family=Cabin:ital,wght@0,400;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;;
+    line-height: 1.6rem;
+    
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    
+}
+.logo{
+    height: 70px;
+    width: 150px;
+}
+
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 18px;
+    color: rgb(2, 2, 2);
+    height: 100px;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+header{
+    background: #4c5a65;
+    height: 710px;
+}
+.ctn{
+    padding: 0 30px;
+    background: #676767;
+    border-radius: 18px;
+}
+
+.nose{
+    display:flex;
+    justify-content: center;
+   gap: 120px;
+    align-items: center;
+    height: 800px;
+
+}
+.jpp{
+    margin-top: 168px;
+    height: 450px;
+
+}
+
+
+.yoyo{
+    margin-top: 30px;
+    width: 500px;
+}
+
+.yoyo h1{
+    color:#fff;
+    font-size: 50px; 
+}
+
+.yoyo h4{
+    color:#969da2 ;
+    
+}
+
+.yoyo p{
+    color: #8c8c8c;
+}
+
+.botones{
+    display: flex;
+    gap: 40px;
+}
+.botones a{
+    font-size: 15px;
+    color: #fff;
+    
+}
+.aa{
+    border-bottom: #fff 2px solid;
+}
+
+
+.botones p{
+    color: #fff;
+}
+
+.ctn1{
+    padding: 4px 40px;
+    background: #3c93d0;
+    border-radius: 20px;
+}
+section{
+    padding: 46px 10%;
+
+}
+.inicios{
+    height: 70px;
+    background: #dbdbdb;
+    padding: 2px;
+}
+
+.jaja{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.nuevo{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 30px;
+}
+
+.carta{
+    text-align: center;
+    padding: 20px 30px;
+}
+.carta img{
+    width: 90px;
+}
+.carta h3{
+    margin: 4px 0 10px;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.carta p{
+    line-height: 1.4rem;
+}
+
+.ort{
+    padding: 10px 20px;
+    background: #3c93d0;
+    border: none;
+    border-radius: 5px;
+}
+
+.riyo{
+    display: flex;
+    justify-content: space-between;
+    margin: 11px;
+}
+
+.riyo img{
+    width: 200px;
+    height: 120px;
+    border: #dbdbdb 3px solid;
+    
+}
+.th{
+    display: flex;
+    gap: 10px;
+    margin: 11px;
+}
+
+.th img{
+    width: 200px;
+    height: 120px;
+    border: #dbdbdb 3px solid;
+}
+span{
+   color: #3c93d0; 
+}
+
+.espacio{
+    width: 350px;
+}
+.qvh{
+    display: flex;
+    justify-content: space-between;
+    margin: 11px;
+}
+.mi{
+    width: 380px;
+}
+.huja{
+    color: #8f8a8a;
+}
+
+
+.final{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:992px){
+    .qvh{
+        display: block;
+    }
+    .nose{
+        gap: 10px;
+    }
+    .yoyo h1{
+        font-size: 30px;
+    }
+    .jpp{
+        height: 350px; 
+    }
+    header{
+        height: 660px;
+    }
+}
+
+@media(max-width:792px){
+    
+    .yoyo h1{
+        font-size: 25px;
+    }
+    
+    .qvh{
+        display:block;
+    }
+    .riyo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .nose{
+        font-size: 15px;
+        gap: 40px;
+    }
+
+    .jpp{
+        height: 362px;
+        width: 224px;
+        margin-top: 6px;
+    }
+
+    header {
+        height: 580px;
+    }
+
+}
+
+@media (max-width: 600px){
+    body{
+        width: 110%;
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+        margin-left: 60px;
+    }
+
+    .nose{
+        font-size: 12px;
+        gap: 15px;
+        display: block;
+        margin-left: -20px;
+       
+    }
+
+    .jpp{
+        margin-left: 260px;
+        height: 230px;
+        width: 190px;
+       margin-top: 147px;
+       
+    }
+
+    .yoyo{
+        margin-top: 24px;
+        margin-left: 107px;
+        text-align: center;
+
+    }
+
+    .yoyo h1{
+        font-size: 28px;
+        margin-left: -2px;
+        height: 20px;
+    }
+
+    .yoyo h4{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .yoyo p{
+        font-size: 15px;
+        margin-right: -7px;
+    }
+
+    .ctn1{
+        padding: 4px 20px;
+    }
+
+    .botones{
+        margin-left: 66px;
+    }
+    .nuevo{
+        display: block;
+    }
+
+    header {
+        height: 720px;
+    }
+
+    .final1{
+        margin-top: 4px;
+    }
+
+    .fjkdkj{
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 480px){
+    body{
+        width: 115%;
+    }
+    .logo{
+        margin-left: -40px;
+    }
+
+    .nuevo{
+        display: block;
+    }
+    .nose{
+        margin-left: -75px;
+    }
+    
+    .ctn1{
+        padding: 4px 15px;
+    }
+
+    .botones{
+        display: block;
+        margin-right: 100px;
+    }
+
+    .yoyo h1{
+        font-size: 30px;
+        margin-top: 35px;
+        margin-left: -29px;
+    }
+
+    .yoyo h4 {
+        font-size: 14px;
+        width: 450px;
+        margin-left: -5px;
+    }
+
+    .yoyo p {
+        font-size: 14px;
+        width: 435px;
+        margin-left: 6px;
+    }
+
+
+    .nav-links {
+        margin-left: -75px;
+    }
+
+    .jpp {
+        margin-left: 244px;
+        height: 219px;
+        width: 183px;
+    }
+
+    header {
+        height: 751px;
+    }
+
+    .botones a {
+        font-size: 14px;
+    }
+}
